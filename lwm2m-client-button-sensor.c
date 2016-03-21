@@ -153,7 +153,7 @@ PROCESS_THREAD(lwm2m_client, ev, data)
 
 	PROCESS_PAUSE();
 
-	Lwm2m_Info("Starting LWM2M Client for flow_button_sensor\n");
+	Lwm2m_Info("Starting LWM2M Client for lwm2m-client-button-sensor\n");
 
 #ifdef RF_CHANNEL
 	Lwm2m_Info("RF channel: %u\n", RF_CHANNEL);
