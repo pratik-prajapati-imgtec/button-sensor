@@ -1,2 +1,2 @@
-# flow_button_sensor
-flow button sensor application
+# button-sensor
+MikroE 6loWPAN Clicker based button sensor application
