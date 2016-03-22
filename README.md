@@ -1,2 +1,2 @@
 # button-sensor
-MikroE 6loWPAN Clicker based button sensor application
+MikroE 6loWPAN Clicker based lwm2m client button sensor application
