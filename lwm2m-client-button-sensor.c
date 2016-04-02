@@ -120,8 +120,6 @@ PROCESS_THREAD(lwm2m_client, ev, data)
 		printf("----> created flow object\n");
 	if (!DefineFlowAccessObject(awaClient))
 		printf("----> defined flow access object\n");
-	if (!CreateFlowAccessObject(awaClient))
-		printf("----> created flow access object\n");
 
 	static struct etimer et;
 	static int WaitTime;
